@@ -1,0 +1,309 @@
+:root {
+    --font_Nunito: "Nunito";
+    --gray_color: #626262;
+    --blue_color: #005cff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: var(--font_Nunito);
+}
+
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+.headerSm {
+    background: linear-gradient(to bottom, #000, var(--gray_color));
+    color: aliceblue;
+    max-width: 100%;
+}
+
+.textBlue {
+    color: var(--blue_color);
+}
+
+.headerMd {
+    background-color: var(--gray_color);
+    color: aliceblue;
+}
+
+.span {
+    color: var(--blue_color);
+}
+
+header button {
+    background-color: var(--blue_color);
+    color: aliceblue;
+}
+
+.video {
+    bottom: 570px;
+}
+
+.bodyImgNote2 {
+    width: 206px;
+    height: 138px;
+}
+
+.divBodyInnovation {
+    font-family: var(--font_Nunito);
+}
+
+.innovationClass {
+    color: var(--blue_color);
+}
+
+.divBodyContainer2 {
+    background-color: #292727;
+    width: 100%;
+    top: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+.divPreRequisitos {
+    background-color: var(--blue_color);
+    color: aliceblue;
+    width: 264px;
+    height: 96px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divContainer {
+    min-width: 368.89px;
+    height: 214.93px;
+}
+
+.divContainernot {
+    width: 100%;
+    height: 234.5px;
+}
+
+.imageCamada {
+    width: 139px;
+    height: 131px;
+}
+
+.divRetangulo {
+    width: 354px;
+    height: 281px;
+}
+
+.containerColor {
+    background-color: #4a4a4a;
+}
+
+.elipce {
+    width: 408px;
+    height: 408px;
+}
+
+.imageIdealizadores {
+    width: 154px;
+    height: 154px;
+}
+
+.divJornadaProgramaContainer {
+    height: 100vh;
+}
+.divJornadaProgramaContainerButton {
+    background-color: var(--blue_color);
+    color: aliceblue;
+}
+.divJornadaProgramaConteudo {
+    background-image: url("assets/mobile/image (5).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 353px;
+    height: 236px;
+}
+.divJornadaProgramaTeste {
+    background-image: url("assets/mobile/image (4).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 353px;
+    height: 236px;
+}
+
+
+
+.divParticipantes {
+    width: 360px;
+    height: 408px;
+}
+
+.imgParticipantes {
+    width: 117px;
+    height: 117px;
+}
+
+.divPerguntas {
+    width: 363px;
+}
+
+ul {
+    list-style: disc;
+}
+
+.btnIncrever {
+    background-color: var(--blue_color);
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        width: 83.52px;
+        height: 63px;
+    }
+
+    .divContainernot {
+        width: 763px;
+        height: 504px;
+        overflow-y: hidden;
+    }
+
+    .divContainer {
+        min-width: 1369px;
+        height: 478.93px;
+    }
+    .molduraVideo {
+        width: 1369px;
+        height: 478.93px;
+        bottom: 700px;
+    }
+    .videoImage {
+        width: 1369px;
+        height: 478.93px;
+    }
+    .video {
+        bottom: 1360px;
+    }
+    .imageElipce1 {
+        width: 888px;
+        height: 888px;
+    }
+    .imageElipce2 {
+        display: none;
+    }
+
+    .innovationClass {
+        width: 100%;
+    }
+    .bodyImgNote {
+        width: 400px;
+        height: 400px;
+        bottom: 700px;
+        right: 600px;
+    }
+    .imageCamada {
+        width: 300px;
+        height: 300px;
+        bottom: 300px;
+        left: 350px;
+    }
+    .bodyImgNote2 {
+        width: 400px;
+        height: 400px;
+        bottom: 900px;
+        left: 300px;
+    }
+
+    .divBodyContainer2 {
+        background-color: #4a4a4a;
+        width: 100%;
+        top: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font_Nunito);
+    }
+
+    .elipce {
+        width: 674px;
+        height: 674px;
+    }
+
+    .imageElipce {
+        width: 674px;
+        height: 674px;
+    }
+
+    .divBlack {
+        width: 431px;
+        height: 343px;
+    }
+    .span {
+        color: aliceblue;
+    }
+
+    .divRetangulo {
+        width: 431px;
+        height: 343px;
+    }
+    .textAprender {
+        color: var(--blue_color);
+    }
+    .divIdealizadores {
+        width: 100%;
+        height: 488px;
+    }
+    .divIdealizadoresImgCamada {
+        width: 239px;
+        height: 225px;
+    }
+    .imageIdealizadores {
+        width: 245px;
+        height: 245px;
+    }
+    .divJornadaPrograma {
+        width: 499px;
+        height: 361px;
+    }
+    .divJornadaProgramaImageNot {
+        width: 763px;
+        height: 504px;
+    }
+    .divJornadaProgramaImageCamada {
+        width: 239px;
+        height: 225px;
+    }
+    .divJornadaProgramaContainer {
+        background-color: #4a4a4a;
+        height: 600px;
+    }
+    .divJornadaProgramaConteudo {
+        width: 442px;
+        height: 294px;
+    }
+    .divJornadaProgramaTeste {
+        background-image: url("assets/mobile/image (4).svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 442px;
+        height: 294px;
+    }
+    .elipceParticipantes {
+        width: 968px;
+        height: 968px;
+    }
+    .divParticipantes {
+        width: 431px;
+        height: 554px;
+    }
+    .divPerguntas {
+        width: 1103px;
+    }
+}

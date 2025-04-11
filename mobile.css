@@ -138,8 +138,6 @@ header button {
     height: 236px;
 }
 
-
-
 .divParticipantes {
     width: 360px;
     height: 408px;
@@ -160,6 +158,9 @@ ul {
 
 .btnIncrever {
     background-color: var(--blue_color);
+}
+.btnInscriao {
+    width: 358px;
 }
 
 @media (min-width: 1024px) {
@@ -264,6 +265,9 @@ ul {
         width: 239px;
         height: 225px;
     }
+    .divIdealizadoresCamada {
+        right: 950px;
+    }
     .imageIdealizadores {
         width: 245px;
         height: 245px;
@@ -287,6 +291,8 @@ ul {
     .divJornadaProgramaConteudo {
         width: 442px;
         height: 294px;
+        left: 1900px;
+        top: 80px;
     }
     .divJornadaProgramaTeste {
         background-image: url("assets/mobile/image (4).svg");
@@ -305,5 +311,9 @@ ul {
     }
     .divPerguntas {
         width: 1103px;
+    }
+
+    .btnInscriao {
+        width: 224px;
     }
 }
